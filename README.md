@@ -76,7 +76,61 @@ The Pay tab uses a **Razorpay test key** (`rzp_test_T50IgpVABWIDzE`). This is a 
 
 ## Screenshots
 
-*Coming soon — add screenshots of the Live Feed, Pay flow, and Analytics views here.*
+## Screenshots
+
+### 🏠 Dashboard Overview (Live Feed)
+
+The main dashboard provides a real-time overview of incoming UPI transactions, fraud statistics, live monitoring, and risk distribution.
+
+![Dashboard Overview](screenshots/dashboard(live%20feed).png)
+
+---
+
+### 🔐 Login Page
+
+Secure role-based authentication supporting both **Admin** and **Analyst** accounts.
+
+![Login Page](screenshots/loginpage.png)
+
+---
+
+### 💳 Pay (Razorpay Test Mode)
+
+Simulate a UPI payment using Razorpay Test Mode. Each payment request is analyzed by the ML backend before processing.
+
+![Pay](screenshots/Pay.png)
+
+---
+
+### 🧪 Test Transaction
+
+Manually enter transaction details to obtain the predicted fraud probability, risk score (0–100), risk level, and recommended action.
+
+![Test Transaction](screenshots/Test-Transaction.png)
+
+---
+
+### 🤖 Model Performance
+
+Compare the performance of the trained machine learning models including Logistic Regression, Random Forest, and the deployed XGBoost classifier.
+
+![Model Performance](screenshots/Model-Performance.png)
+
+---
+
+### 📊 Analytics Dashboard
+
+Visualize fraud trends, risk-level distribution, hourly fraud patterns, and overall decision statistics.
+
+![Analytics](screenshots/Analytics.png)
+
+---
+
+### 📜 Transaction History
+
+Review previously analyzed transactions along with timestamps, transaction amounts, fraud scores, and model decisions.
+
+![Transaction History](screenshots/Transaction-History.png)
 
 ## Related Repository
 
